@@ -1,0 +1,95 @@
+/* reset default browser style */
+body, h1, h2, h3, p, ul, li, table, th, td, input, label, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    background: none;
+}
+
+/* set overall page style */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+    margin-left: 20px;
+}
+
+/* main heading style */
+h1 {
+    font-size: 36px;
+    color: #ff6600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* teaser style */
+.teaser {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* blurb style */
+.blurb {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ingredients style */
+.ingredients {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ingredients ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.ingredients li {
+    margin-bottom: 10px;
+}
+
+/* instructions style */
+.instructions {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.instructions h2 {
+    font-size: 24px;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.instructions ol {
+    list-style-type: decimal;
+}
+
+.instructions ol li {
+    margin-bottom: 10px;
+}
+
+/* text section style */
+.outro {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

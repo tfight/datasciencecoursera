@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+    <head>
+        <title>Munchkin's Makery</title>
+        <!-- use external CSS to avoid redundancy -->
+        <link href="main-styles.css"
+        type="text/css"
+        rel="stylesheet">
+        <!--make viewport adapt to the device for easier navigation on differently sized screens-->
+        <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    </head>
+ <!-- create a top bar above the site header to encourage visitors to sign up -->
+<body>
+<div class="top-bar">
+    <a href="contentbar/Register.html">Save your favourite munches
+        <span>(Create an account)</span></a>
+</div>
+<!-- create a classic site header which promotes the newsletter and contact with the creator -->
+<div class="site-header" role="banner">
+    <h1 id="top">Munchkin's Makery</h1>
+    <a href="contentbar/Register.html">Newsletter</a>
+    <a href="mailto:munchkin@munchkinsmakery.com">Email the Munchkin</a>
+    <a href="contentbar/MeetMunchkin.html">About the Munchkin</a>
+</div>
+<!-- create navigation bar to allow users to skip to different sections of the main page -->
+<div class="navigation">
+    <h2 class="sub-heading">Navigation</h2>
+    <ul>
+        <li><a href="#recipes">Munch a recipe</a> </li>
+        <li><a href="#video">Watch Munchkin cook</a> </lil>
+        <li><a href="#favourites">Munchkin's favourite things</a></li>
+    </ul>
+</div>
+
+<!-- create a recipe-section subsection to set it off from the rest of the page -->
+<div class="recipe-section">
+    <div class="section">
+        <h2 class="main-heading" id="recipes">Munchkin's Munches</h2>
+    </div>
+    <!-- wrap the entire <div> element inside the anchor tag so that clicking anywhere inside the <div> triggers the link -->
+    <a href="recipes/chocchipcookies.html">
+    <div class="recipe">
+        <div class="recipe-content">
+            <h3>Chocolate Chip Cookies</h3>
+            <p class="teaser">Try this recipe for sumptious, buttery smooth <em>chocolate chip cookies</em>. Munch on their own, dip in milk, or serve with ice cream.</p>
+        </div>
+        <img src="images/chocchipcookies.jpg" alt="chocolate chip cookies">
+    </div>
+    </a>
+        
+    <a href="recipes/butterscones.html">
+    <div class="recipe">
+        <div class="recipe-content">
+        <h3>Butter Scones</h3>
+        <p class="teaser">Try this recipe for perfectly baked English <em>scones</em>. Munch with clotted cream and jam and a side of tea.</p>
+        </div>
+        <img src="images/scones.jpg" alt="scones with jam and clotted cream">
+    </div>
+    </a>
+
+    <a href="recipes/guglhupf.html">
+    <div class="recipe">
+        <div class="recipe-content">
+        <h3>Guglhupf</h3>
+        <p class="teaser"> Try this recipe for traditional German birthday cake in a special donut form, <em>Guglhupf</em>. Cover in chocolate to delight your guests!</p>
+        </div>
+        <img src="images/guglhupf.jpg" alt="traditional German Guglhupf cake">
+    </div>
+    </a>
+</div>
+
+<div class="section">
+    <h2 class="main-heading" id="video">Video</h2>
+    <div class="section-content">
+        <p>Coming soon!</p>
+         <!-- insert TikTok Web Embed widget code when ready -->
+         <div data-tiktok-embed="carousel" data-tiktok-username="tiktok_username" data-tiktok-secuid="tiktok_secuid" data-tiktok-aid="tiktok_aid" class="tiktok-embed"></div>
+    </div>
+</div>
+    
+<div class="section">
+    <h2 class="main-heading" id="favourites">Favourite Things</h2>
+    <div class="section-content">
+        <table>
+            <tr>
+                <th>Month</th>
+                <th>Food</th>
+                <th>Place</th>
+                <th>Moment</th>
+            </tr>
+            <tr>
+                <td>April</td>
+                <td>Vegetarian lasagne</td>
+                <td>Stave Hill</td>
+                <td>Duckling hatching</td>
+            </tr>
+            <tr>
+                <td>May</td>
+                <td>Portobello mushroom crockpot</td>
+                <td>Thames Path</td>
+                <td>Sunshine on balcony</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="section">
+    <h2 class="main-heading">What did you think?</h2>
+    <br>
+    <form class="questionnaire">
+        <input type="radio" id="5" name="rating" value="5 Stars">
+        <label for="5">5 Stars</label><br>
+        <input type="radio" id="4" name="rating" value="4 Stars">
+        <label for="4">4 Stars</label><br>
+        <input type="radio" id="3" name="rating" value="3 Stars">
+        <label for="4">3 Stars</label><br>
+        <input type="radio" id="2" name="rating" value="2 Stars">
+        <label for="2">2 Stars</label><br>
+        <input type="radio" id="1" name="rating" value="1 Star">
+        <label for="1">1 Star</label><br>
+        <input class="submit-button" type="submit" value="Submit">
+    </form>
+</div>
+<a href="#top">Take me to the top</a>
+</body>
+</html>

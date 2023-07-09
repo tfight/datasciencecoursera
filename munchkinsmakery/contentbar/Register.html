@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+    <title>Create an Account - Munchkin's Makery</title>
+    <link href="content-styles.css" type="text/css" rel="stylesheet">
+    <!-- make viewport adapt to the device for easier navigation on differently sized screens -->
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+</head>
+<body>
+    <!-- create a classic site header which promotes the newsletter and contact with the creator -->
+    <div class="site-header" role="banner">
+        <h1>Munchkin's Makery</h1>
+        <a href="mailto:munchkin@munchkinsmakery.com">Email the Munchkin</a>
+        <a href="contentbar/MeetMunchkin.html">About the Munchkin</a>
+    </div>
+
+    <!-- create form to register for an account -->
+    <div class="section">
+        <h2>Create an Account</h2>
+        <form class="account-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Subscribe to the newsletter</label>
+
+            <input type="submit" value="Create Account">
+        </form>
+    </div>
+</body>
+</html>
